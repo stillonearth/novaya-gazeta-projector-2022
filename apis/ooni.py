@@ -1,4 +1,5 @@
 import requests
+from progress.bar import Bar
 
 def get_asn(asn, limit, offset):
     """Данные мониторинга провайдера"""
@@ -29,7 +30,7 @@ def get_blocked_url_data(asn, domain):
 
     return all_items
 
-def fetch_ooni():
+def fetch_ooni(asn_list):
     links = {}
 
     for asn in Bar('Countdown', check_tty=False).iter(asn_list):
@@ -42,5 +43,4 @@ def fetch_ooni():
                 break
             offset += 1
     
-    links = {}
-    return 
+    return links
