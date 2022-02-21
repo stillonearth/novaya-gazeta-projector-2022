@@ -17,7 +17,7 @@ def parse_rks(page):
 
 def fetch_rks():
     links = []
-    for page in Bar('BlocksByTimeRKS', check_tty=False).iter(range(7236+2698, 22000)):
+    for page in Bar('BlocksByTimeRKS', check_tty=False).iter(range(12000, 22000)):
         new_list = parse_rks(page)
         links += new_list
         

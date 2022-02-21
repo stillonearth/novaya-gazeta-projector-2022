@@ -29,10 +29,9 @@
 Нами были полученны следующие слепки данных
 
 * **OONI** — 2017-2022 data/01-ooni-asn-links.zip & data/02-domain-by-time.zip
+* **РосКомСвобода** — 2015-2022 data/03-rks.zip
 
 ## Прототип проекта
-
-<script src="https://assets.sutori.com/frontend-assets/assets/iframeResizer.js"></script><iframe src="https://www.sutori.com/en/story/suvieriennyi-runiet--vxHydzvStAXs6bTiVtJwKV36/embed" width="100%" height="600" frameborder="0" allowfullscreen></iframe><script src="https://assets.sutori.com/frontend-assets/assets/iframeResizer.executer.js"></script>
 
 ## Методология
 
@@ -82,6 +81,9 @@
 * Составлен таймлайн ключевых событий 
 * Сбор данных с РоскомСвободы продолжается
 
-## Выводы
+— **2022-02-21**
 
-**2022-02-12**
+* Завершен сбор данных с РосКомСвободы
+* Создан рубрикатор инстанций принимавших решения о блокировках
+
+
